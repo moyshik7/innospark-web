@@ -103,20 +103,28 @@ const Navbar = () => {
                                 <SheetDescription className="text-lg">
                                     <ul className="w-full text-md text-right font-semibold [&>*]:my-8">
                                         <li>
-                                            <Link href="/">Home</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Our Clients</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Our Service</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="#">Projects</Link>
+                                            <Link href="/">
+                                                Home
+                                            </Link>
                                         </li>
                                         <li>
                                             <Link href="#">
-                                                <Button>Contact Us</Button>
+                                                Our Clients
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">
+                                                Our Service
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">
+                                                Projects
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">
+                                                Contact Us
                                             </Link>
                                         </li>
                                         <li>
