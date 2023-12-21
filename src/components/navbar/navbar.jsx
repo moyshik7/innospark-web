@@ -10,7 +10,6 @@ import { useTheme } from "next-themes";
 
 import { Menu, Sun } from "lucide-react";
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "../ui/sheet";
-import { Button } from "../ui/button";
 import { Switch } from "../ui/switch";
 
 const Navbar = () => {
@@ -43,7 +42,7 @@ const Navbar = () => {
                                             <NavigationMenuLink asChild>
                                                 <div className="h-full w-full relative bg-[url('/banner/digital-marketing.png')] bg-cover rounded-lg">
                                                     <Link className="flex h-full absolute top-0 left-0 right-0 bottom-0 w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-transparent to-chitro p-6 no-underline outline-none focus:shadow-md" href="#">
-                                                        <div className="mb-2 mt-1 text-lg font-semibold text-white">Digital Marketing</div>
+                                                        <div className="mb-2 mt-1 text-lg font-bold text-white">Digital Marketing</div>
                                                         <p className="text-sm leading-tight"></p>
                                                     </Link>
                                                 </div>
