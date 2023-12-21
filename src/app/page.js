@@ -3,29 +3,47 @@ import { Text } from '@radix-ui/themes';
 import Head from 'next/head'
 import Navbar from '@/components/navbar/navbar';
 
+export const metadata = {
+  title: 'InnoSpark',
+  description: 'Leading digital marketing service in Bangladesh',
+  
+  keywords: ['Next.js', 'React', 'JavaScript'],
+  openGraph: {
+    title: 'InnoSpark',
+    description: 'Leading digital marketing service in Bangladesh',
+    url: 'https://innosparkbd.com',
+    siteName: 'InnoSpark',
+    images: 'https://images2.imgbox.com/57/71/NYnzgUOV_o.png',
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: {
+    index: true, 
+    follow: true,
+
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'InnoSpark',
+    description: 'Leading digital marketing service in Bangladesh',
+    creator: '@akiorochi',
+    images: ['https://images2.imgbox.com/57/71/NYnzgUOV_o.png'],
+  },
+}
+
+export const viewport = {
+  themeColor: '#ff6f61',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  colorScheme: 'dark',
+}
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 mt-96 ${inter.className}`}
-    >
-      <Head>
-        <title>InnoSpark</title>
-        <meta property="description" content="Leading digital marketing service in Bangladesh" />
-
-        <meta property="twitter:image" content="https://images2.imgbox.com/57/71/NYnzgUOV_o.png" />
-        <meta property="twitter:card" content="summary_large_image" />
-
-
-        <meta property="og:image" content="https://images2.imgbox.com/57/71/NYnzgUOV_o.png" />
-        <meta property="og:title" content="InnoSpark" />
-        <meta property="og:description" content="Leading digital marketing service in Bangladesh" />
-        <meta property="og:url" content="https://innosparkbd.com" />
-
-      </Head>
-
+    <main className={`flex min-h-screen flex-col items-center justify-between p-24 mt-96 ${inter.className}`}>
       <div className="flex">
         <Text size={"8"}>
           Innospark
