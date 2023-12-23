@@ -1,9 +1,10 @@
+"use client"
 import '@/styles/globals.css'
 import { Inter } from 'next/font/google'
 import '@radix-ui/themes/styles.css';
-import { Theme } from '@radix-ui/themes';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import Navbar from '@/components/navbar/navbar';
+import { Toaster } from "@/components/ui/sonner"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +15,10 @@ export default function RootLayout({ children }) {
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
                 <body className={inter.className}>
                     <Navbar/>
-                    {children}
+                    <main>
+                        {children}
+                    </main>
+                    <Toaster />
                 </body>
             </ThemeProvider>
         </html>
