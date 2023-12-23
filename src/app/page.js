@@ -1,11 +1,13 @@
 import { Inter } from 'next/font/google'
 import { Text } from '@radix-ui/themes';
-import Head from 'next/head'
-import Navbar from '@/components/navbar/navbar';
+import { Header } from '@/components/home/header/header';
+import { ServiceSection } from '@/components/home/services/service';
 
 export const metadata = {
   title: 'InnoSpark',
   description: 'Leading digital marketing service in Bangladesh',
+
+  metadataBase: new URL('https://innosparkbd.com'),
   
   keywords: ['Next.js', 'React', 'JavaScript'],
   openGraph: {
@@ -42,13 +44,8 @@ export const viewport = {
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  return (
-    <main className={`flex min-h-screen flex-col items-center justify-between p-24 mt-96 ${inter.className}`}>
-      <div className="flex">
-        <Text size={"8"}>
-          Innospark
-        </Text>
-      </div>
-    </main>
-  )
+  return (<>
+    <Header/>
+    <ServiceSection/>
+  </>)
 }

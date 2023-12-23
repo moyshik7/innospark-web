@@ -54,7 +54,7 @@ const Navbar = () => {
                                         <ListItem href="#" title="Motion Graphics" year="২০২০">
                                             Elevate your brand&apos;s story with captivating visuals
                                         </ListItem>
-                                        <NavigationMenuLink href="/archive">
+                                        <NavigationMenuLink href="#">
                                             <div className="p-3 rounded-md bg-violet-600 to-chitro flex">
                                                 <div className=""></div>
                                                 <div className="">
