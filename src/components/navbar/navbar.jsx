@@ -12,6 +12,42 @@ import { Menu, Sun } from "lucide-react";
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "../ui/sheet";
 import { Switch } from "../ui/switch";
 
+
+const components = [
+    {
+      title: "Google",
+      href: "#",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+    },
+    {
+      title: "Microsoft",
+      href: "#",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+    },
+    {
+      title: "Facebook",
+      href: "#",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+    },
+    {
+      title: "Twitter",
+      href: "#", 
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+    },
+    {
+      title: "X (Twitter)",
+      href: "#",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+    },
+    {
+      title: "Tesla",
+      href: "#",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+    },
+  ]
+
+
+
 const Navbar = () => {
     const {theme, setTheme} = useTheme();
     console.log(theme)
@@ -30,9 +66,20 @@ const Navbar = () => {
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuLink href="#" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
-                                    Our Clients
-                                </NavigationMenuLink>
+                                <NavigationMenuTrigger>Our Clients</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                                        {components.map((component) => (
+                                            <ListItem2
+                                                key={component.title}
+                                                title={component.title}
+                                                href={component.href}
+                                            >
+                                                {component.description}
+                                            </ListItem2>
+                                        ))}
+                                    </ul>
+                                </NavigationMenuContent>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger className={`hover:shadow-md rounded-md`}>Our Service</NavigationMenuTrigger>
@@ -159,5 +206,28 @@ const ListItem = React.forwardRef(({ className, title, children, ...props }, ref
     );
 });
 ListItem.displayName = "ListItem";
+
+const ListItem2 = React.forwardRef(({ className, title, children, ...props }, ref) => {
+  return (
+    <li>
+      <NavigationMenuLink asChild>
+        <a
+          ref={ref}
+          className={cn(
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            className
+          )}
+          {...props}
+        >
+          <div className="text-sm font-medium leading-none">{title}</div>
+          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+            {children}
+          </p>
+        </a>
+      </NavigationMenuLink>
+    </li>
+  )
+})
+ListItem2.displayName = "ListItem2"
 
 export default Navbar;
