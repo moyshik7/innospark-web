@@ -1,6 +1,5 @@
-import { Inter } from 'next/font/google';
-import { Header } from '@/components/home/header/header';
-import { ProjectsContainer } from '@/components/projects/projectContainer';
+import { Inter } from 'next/font/google'
+import { CustomersContainer } from '@/components/customers/customers';
 
 export const metadata = {
   title: 'InnoSpark',
@@ -44,6 +43,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (<>
-    <ProjectsContainer/>
+    <CustomersContainer/>
   </>)
 }
