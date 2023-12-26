@@ -76,7 +76,11 @@ const Navbar = () => {
                                 </NavigationMenuContent>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger className={`hover:shadow-md rounded-md`}>Our Service</NavigationMenuTrigger>
+                                <NavigationMenuTrigger className={`hover:shadow-md rounded-md`}>
+                                    <Link href={"/service"}>
+                                        Our Service
+                                    </Link>
+                                </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr] rounded-lg">
                                         <div className="row-span-3">
@@ -89,13 +93,13 @@ const Navbar = () => {
                                                 </div>
                                             </NavigationMenuLink>
                                         </div>
-                                        <ListItem href="#" title="Digital Marketing">
+                                        <ListItem href="/service" title="Digital Marketing">
                                             We bring your vision to life with creativity and precision
                                         </ListItem>
-                                        <ListItem href="#" title="Web Development">
+                                        <ListItem href="/service" title="Web Development">
                                             Elevate your brand&apos;s story with captivating visuals
                                         </ListItem>
-                                        <NavigationMenuLink href="#">
+                                        <NavigationMenuLink href="/service">
                                             <div className="p-3 rounded-md bg-violet-600 to-chitro flex">
                                                 <div className=""></div>
                                                 <div className="">
@@ -145,13 +149,13 @@ const Navbar = () => {
                                             <Link href="/">Home</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">Our Clients</Link>
+                                            <Link href="/clients">Our Clients</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">Our Service</Link>
+                                            <Link href="/service">Our Service</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">Projects</Link>
+                                            <Link href="/projects">Projects</Link>
                                         </li>
                                         <li>
                                             <Link href="#">Contact Us</Link>
