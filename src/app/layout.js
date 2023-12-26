@@ -7,6 +7,7 @@ import Navbar from '@/components/navbar/navbar';
 import { Toaster } from "@/components/ui/sonner"
 import Footer from '@/components/footer/footer';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
                     </main>
                     <Footer/>
                     <Analytics/>
+                    <SpeedInsights/>
                     <Toaster />
                 </body>
             </ThemeProvider>
