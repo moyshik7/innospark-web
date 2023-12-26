@@ -1,17 +1,11 @@
 "use client"
-
 import React from "react";
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from "../ui/navigation-menu";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
-import Image from "next/image";
 import { useTheme } from "next-themes";
 
 
 import { Facebook, Twitter, MessageSquare } from "lucide-react";
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "../ui/sheet";
 import { Switch } from "../ui/switch";
-import { Card, CardHeader, CardTitle } from "../ui/card";
 
 const Footer = () => {
     const {theme, setTheme} = useTheme();
@@ -53,6 +47,9 @@ const Footer = () => {
                         <Switch onCheckedChange={() => setTheme(theme === "dark" ? "light" : "dark")}/>
                     </div>
                 </div>
+            </div>
+            <div className="mt-10 text-md font-semibold font-mono text-center w-full">
+                Copyright &copy;InnoSparkBD 2023 - {new Date().getFullYear()} all rights received
             </div>
         </>
     );

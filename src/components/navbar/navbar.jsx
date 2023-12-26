@@ -1,56 +1,52 @@
-"use client"
+'use client';
 
-import React from "react";
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from "../ui/navigation-menu";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
-import Image from "next/image";
-import { useTheme } from "next-themes";
+import React from 'react';
+import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle } from '../ui/navigation-menu';
+import { cn } from '@/lib/utils';
+import Link from 'next/link';
+import Image from 'next/image';
+import { useTheme } from 'next-themes';
 
-
-import { Menu, Sun } from "lucide-react";
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "../ui/sheet";
-import { Switch } from "../ui/switch";
-
+import { Menu, Sun } from 'lucide-react';
+import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '../ui/sheet';
+import { Switch } from '../ui/switch';
 
 const components = [
     {
-      title: "Habitile",
-      href: "/clients",
-      description: "Habit tracking made simple",
+        title: 'Habitile',
+        href: '/clients',
+        description: 'Habit tracking made simple',
     },
     {
-      title: "PollPebble",
-      href: "/clients",
-      description: "Engage customers and uncover insights with microsurveys",
+        title: 'PollPebble',
+        href: '/clients',
+        description: 'Engage customers and uncover insights with microsurveys',
     },
     {
-      title: "Beep! 2.0",
-      href: "/clients",
-      description: "Fastest tool to assign and share visual tasks with your team",
+        title: 'Beep! 2.0',
+        href: '/clients',
+        description: 'Fastest tool to assign and share visual tasks with your team',
     },
     {
-      title: "Collab",
-      href: "/clients", 
-      description: "Unified project management & campaign calendaring",
+        title: 'Collab',
+        href: '/clients',
+        description: 'Unified project management & campaign calendaring',
     },
     {
-      title: "DownCount",
-      href: "/clients",
-      description: "Start a count down from your menu bar",
+        title: 'DownCount',
+        href: '/clients',
+        description: 'Start a count down from your menu bar',
     },
     {
-      title: "Remote",
-      href: "/clients",
-      description: "Create a profile and get hired by 1000s of remote companies",
+        title: 'Remote',
+        href: '/clients',
+        description: 'Create a profile and get hired by 1000s of remote companies',
     },
-  ]
-
-
+];
 
 const Navbar = () => {
-    const {theme, setTheme} = useTheme();
-    console.log(theme)
+    const { theme, setTheme } = useTheme();
+    console.log(theme);
     return (
         <>
             <div className="fixed top-0 left-0 bg-white dark:bg-black dark:bg-opacity-70 bg-opacity-50 backdrop-blur-lg md:grid grid-cols-12 right-0 w-full h-auto transition-all ease-in-out duration-300 z-50 lg:px-px py-2 hidden shadow-sm shadow-violet-600">
@@ -67,18 +63,12 @@ const Navbar = () => {
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuTrigger>
-                                    <Link href={"/clients"}>
-                                        Our Clients
-                                    </Link>
+                                    <Link href={'/clients'}>Our Clients</Link>
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                                         {components.map((component) => (
-                                            <ListItem2
-                                                key={component.title}
-                                                title={component.title}
-                                                href={component.href}
-                                            >
+                                            <ListItem2 key={component.title} title={component.title} href={component.href}>
                                                 {component.description}
                                             </ListItem2>
                                         ))}
@@ -91,18 +81,18 @@ const Navbar = () => {
                                     <div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr] rounded-lg">
                                         <div className="row-span-3">
                                             <NavigationMenuLink asChild>
-                                                <div className="h-full w-full relative bg-[url('/banner/digital-marketing.png')] bg-cover rounded-lg">
+                                                <div className="h-full w-full relative bg-[url('/banner/motion-graphics.gif')] bg-cover rounded-lg">
                                                     <Link className="flex h-full absolute top-0 left-0 right-0 bottom-0 w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-transparent to-chitro p-6 no-underline outline-none focus:shadow-md" href="#">
-                                                        <div className="mb-2 mt-1 text-lg font-bold text-white">Digital Marketing</div>
+                                                        <div className="mb-2 mt-1 text-lg font-bold text-white">Motion Graphics</div>
                                                         <p className="text-sm leading-tight"></p>
                                                     </Link>
                                                 </div>
                                             </NavigationMenuLink>
                                         </div>
-                                        <ListItem href="#" title="Video Editing">
+                                        <ListItem href="#" title="Digital Marketing">
                                             We bring your vision to life with creativity and precision
                                         </ListItem>
-                                        <ListItem href="#" title="Motion Graphics" year="২০২০">
+                                        <ListItem href="#" title="Web Development">
                                             Elevate your brand&apos;s story with captivating visuals
                                         </ListItem>
                                         <NavigationMenuLink href="#">
@@ -116,7 +106,6 @@ const Navbar = () => {
                                         </NavigationMenuLink>
                                     </div>
                                 </NavigationMenuContent>
-                                
                             </NavigationMenuItem>
                             <NavigationMenuItem>
                                 <NavigationMenuLink href="/projects" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
@@ -129,7 +118,7 @@ const Navbar = () => {
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <Switch onCheckedChange={() => setTheme(theme === "dark" ? "light" : "dark")}/>
+                                <Switch onCheckedChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
                             </NavigationMenuItem>
                         </NavigationMenuList>
                     </NavigationMenu>
@@ -153,32 +142,22 @@ const Navbar = () => {
                                 <SheetDescription className="text-lg">
                                     <ul className="w-full text-md text-right font-semibold [&>*]:my-8">
                                         <li>
-                                            <Link href="/">
-                                                Home
-                                            </Link>
+                                            <Link href="/">Home</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                Our Clients
-                                            </Link>
+                                            <Link href="#">Our Clients</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                Our Service
-                                            </Link>
+                                            <Link href="#">Our Service</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                Projects
-                                            </Link>
+                                            <Link href="#">Projects</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
-                                                Contact Us
-                                            </Link>
+                                            <Link href="#">Contact Us</Link>
                                         </li>
                                         <li>
-                                            <Switch onCheckedChange={() => setTheme(theme === "dark" ? "light" : "dark")}/>
+                                            <Switch onCheckedChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
                                         </li>
                                     </ul>
                                 </SheetDescription>
@@ -194,12 +173,11 @@ const Navbar = () => {
 const ListItem = React.forwardRef(({ className, title, children, ...props }, ref) => {
     return (
         <NavigationMenuLink asChild>
-            <Link href="/" ref={ref} className={cn("block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-chitro/20 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground", className)} {...props}>
+            <Link href="/" ref={ref} className={cn('block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-chitro/20 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground', className)} {...props}>
                 <div className="flex">
                     <div className="">
                         <div className="flex items-center">
                             <p className="text-sm font-medium leading-none">{title}</p>
-                            <div className="ml-1 rounded-md bg-red-200 text-xs px-1 py-0.5 text-red-500">Contact Us</div>
                         </div>
 
                         <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">{children}</p>
@@ -209,29 +187,20 @@ const ListItem = React.forwardRef(({ className, title, children, ...props }, ref
         </NavigationMenuLink>
     );
 });
-ListItem.displayName = "ListItem";
+ListItem.displayName = 'ListItem';
 
 const ListItem2 = React.forwardRef(({ className, title, children, ...props }, ref) => {
-  return (
-    <li>
-      <NavigationMenuLink asChild>
-        <a
-          ref={ref}
-          className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}
-        >
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-        </a>
-      </NavigationMenuLink>
-    </li>
-  )
-})
-ListItem2.displayName = "ListItem2"
+    return (
+        <li>
+            <NavigationMenuLink asChild>
+                <a ref={ref} className={cn('block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground', className)} {...props}>
+                    <div className="text-sm font-medium leading-none">{title}</div>
+                    <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">{children}</p>
+                </a>
+            </NavigationMenuLink>
+        </li>
+    );
+});
+ListItem2.displayName = 'ListItem2';
 
 export default Navbar;
