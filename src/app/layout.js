@@ -5,6 +5,7 @@ import '@radix-ui/themes/styles.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import Navbar from '@/components/navbar/navbar';
 import { Toaster } from "@/components/ui/sonner"
+import Footer from '@/components/footer/footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
                     <main>
                         {children}
                     </main>
+                    <Footer/>
                     <Toaster />
                 </body>
             </ThemeProvider>
