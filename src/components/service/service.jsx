@@ -11,9 +11,9 @@ export const Service = () => {
                 <CarouselContent>
                     <CarouselItem key={0} className="xl:basis-1/4 md:basis-1/2 lg:basis-1/3">
                         <div className="p-1">
-                            <Card className="sm:hidden md:block bg-[url('/images/service/motion-graphics.gif')] bg-cover">
+                            <Card className="sm:hidden md:block bg-[url('/images/service/digital-marketing.png')] bg-cover">
                                 <CardContent className="flex aspect-square items-center justify-center p-6">
-                                    <div className="text-2xl font-bold text-slate-400">Digital Marketing</div>
+                                    <div className="text-2xl font-bold">Digital Marketing</div>
                                 </CardContent>
                             </Card>
                         </div>
@@ -102,9 +102,9 @@ export const Service = () => {
          */}
         <div className="mt-20 w-full min-h-screen xl:p-72 lg:p-52 md:p-28 sm:p-0 sm:block lg:hidden md:hidden">
             <div className="md:hidden sm:flex flex-col justify-center items-center p-10">
-                <Card className="mb-10 bg-[url('/images/service/motion-graphics.gif')] bg-cover">
+                <Card className="mb-10 bg-[url('/images/service/digital-marketing.png')] bg-cover">
                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <div className="text-2xl font-bold text-slate-400">Digital Marketing</div>
+                        <div className="text-2xl font-bold">Digital Marketing</div>
                     </CardContent>
                 </Card>
                 

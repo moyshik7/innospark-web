@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-10 text-md font-semibold font-mono text-center w-full">
+            <div className="mt-10 text-md font-semibold font-mono text-center w-full hover:animate-bounce">
                 Copyright &copy;InnoSparkBD 2023 - {new Date().getFullYear()} all rights received
             </div>
         </>
