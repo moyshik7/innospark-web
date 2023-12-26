@@ -49,7 +49,7 @@ const Navbar = () => {
     console.log(theme);
     return (
         <>
-            <div className="fixed top-0 left-0 bg-white dark:bg-black dark:bg-opacity-70 bg-opacity-50 backdrop-blur-lg md:grid grid-cols-12 right-0 w-full h-auto transition-all ease-in-out duration-300 z-50 lg:px-px py-2 hidden shadow-sm shadow-violet-600">
+            <div className="fixed top-0 left-0 bg-white dark:bg-black dark:bg-opacity-70 bg-opacity-50 backdrop-blur-lg md:grid grid-cols-12 right-0 w-full h-auto transition-all ease-in-out duration-300 z-50 lg:px-px py-2 hidden">
                 <Link href="/">
                     <Image height={100} width={100} src="/logo.png" alt="sss" className="w-10 col-span-2" />
                 </Link>
