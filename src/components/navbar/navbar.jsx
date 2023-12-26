@@ -15,34 +15,34 @@ import { Switch } from "../ui/switch";
 
 const components = [
     {
-      title: "Google",
-      href: "#",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+      title: "Habitile",
+      href: "/clients",
+      description: "Habit tracking made simple",
     },
     {
-      title: "Microsoft",
-      href: "#",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+      title: "PollPebble",
+      href: "/clients",
+      description: "Engage customers and uncover insights with microsurveys",
     },
     {
-      title: "Facebook",
-      href: "#",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+      title: "Beep! 2.0",
+      href: "/clients",
+      description: "Fastest tool to assign and share visual tasks with your team",
     },
     {
-      title: "Twitter",
-      href: "#", 
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+      title: "Collab",
+      href: "/clients", 
+      description: "Unified project management & campaign calendaring",
     },
     {
-      title: "X (Twitter)",
-      href: "#",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+      title: "DownCount",
+      href: "/clients",
+      description: "Start a count down from your menu bar",
     },
     {
-      title: "Tesla",
-      href: "#",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut aliquet nisi, ut elementum mauris. Integer vulputate bibendum risus a egestas. Aenean lacinia vulputate metus, a tristique est aliquam et",
+      title: "Remote",
+      href: "/clients",
+      description: "Create a profile and get hired by 1000s of remote companies",
     },
   ]
 
@@ -66,7 +66,11 @@ const Navbar = () => {
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger>Our Clients</NavigationMenuTrigger>
+                                <NavigationMenuTrigger>
+                                    <Link href={"/clients"}>
+                                        Our Clients
+                                    </Link>
+                                </NavigationMenuTrigger>
                                 <NavigationMenuContent>
                                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                                         {components.map((component) => (
