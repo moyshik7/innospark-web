@@ -4,9 +4,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import Link from 'next/link'
 import { toast } from "sonner"
 import { Button } from "@/components/ui/button";
+import { CustomersContainer } from "@/components/customers/customers";
 
 export const ClientsSection = () => {
-    return(<div className={`flex p-28 md:p-5 sm:p-3 flex-col w-full text-3xl text-center items-center justify-center bg-gradient-to-r from-purple-500 dark:from-purple-800 to-pink-500 dark:to-pink-800 bg-cover `}>
+    /*return(<div className={`flex p-28 md:p-5 sm:p-3 flex-col w-full text-3xl text-center items-center justify-center bg-gradient-to-r from-purple-500 dark:from-purple-800 to-pink-500 dark:to-pink-800 bg-cover `}>
         
         <div className="w-full text-left mb-20 mt-20 ml-10">
             <Text>Our Clients</Text>
@@ -55,5 +56,6 @@ export const ClientsSection = () => {
             </Card>
             
         </div>
-    </div>)
+    </div>)*/
+    return(<CustomersContainer/>)
 }
