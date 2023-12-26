@@ -12,36 +12,50 @@ export const ServiceSection = () => {
             <Text>Our Services</Text>
         </div>
         <div className="flex flex-row flex-wrap w-full mb-20">
+        {/*
         
+                    "Digital Marketing",
+                    3000,
+                    "Web Development",
+                    3000,
+                    "Motion Graphics",
+                    3000,
+                    "Video Editing",
+                    3000,
+                    "UI / UX Design",
+                    3000,
+                    "App Development",
+                    3000,
+        */}
             <Card className="p-10 pb-20 pt-20 bg-[url('/banner/digital-marketing.png')] md:w-full sm:w-full 2xl:w-1/5 xl:w-1/4 m-5">
                 <CardHeader>
                     <CardTitle>
                         Digital Marketing
                     </CardTitle>
                     <CardDescription>
-                        For an example, consider a pages directory with the following files
+                        We help your peoduct reach to your customers
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
                     <Link href="#">
-                        <Button onClick={() => toast("You have successfully learned more")} className=" mt-16">
+                        <Button>
                             Learn More
                         </Button>
                     </Link>
                 </CardContent>
             </Card>
-            <Card className="p-10 pb-20 pt-20 bg-[url('/banner/video-editing.jpeg')] md:w-full sm:w-full 2xl:w-1/5 xl:w-1/4 m-5">
+            <Card className="p-10 pb-20 pt-20 bg-[url('/banner/digital-marketing.png')] md:w-full sm:w-full 2xl:w-1/5 xl:w-1/4 m-5">
                 <CardHeader>
-                    <CardTitle className="text-violet-500">
-                        Video Editing
+                    <CardTitle className="">
+                        Web Development
                     </CardTitle>
                     <CardDescription>
-                        For an example, consider a pages directory with the following files
+                        Making robust user friendly websites 
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
                     <Link href="#">
-                        <Button onClick={() => toast("You have successfully learned more")} className=" mt-16">
+                        <Button>
                             Learn More
                         </Button>
                     </Link>
@@ -53,35 +67,71 @@ export const ServiceSection = () => {
                         Motion Graphics
                     </CardTitle>
                     <CardDescription>
-                        For an example, consider a pages directory with the following files
+                        Creating stunning animated videos
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
                     <Link href="#">
-                        <Button onClick={() => toast("You have successfully learned more")} className=" mt-16">
+                        <Button>
                             Learn More
                         </Button>
                     </Link>
                 </CardContent>
             </Card>
-            <Card className="p-10 pb-20 pt-20 bg-[url('/banner/seo.jpeg')] md:w-full sm:w-full 2xl:w-1/5 xl:w-1/4 m-5">
+            <Card className="p-10 pb-20 pt-20 bg-[url('/banner/digital-marketing.png')] md:w-full sm:w-full 2xl:w-1/5 xl:w-1/4 m-5">
                 <CardHeader>
                     <CardTitle>
-                        SEO
+                        Video Editing
                     </CardTitle>
                     <CardDescription>
-                        Search Engine Optimization
+                        Editiing professional or cinematic videos
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
                     <Link href="#">
-                        <Button onClick={() => toast("You have successfully learned more")} className=" mt-16">
+                        <Button>
                             Learn More
                         </Button>
                     </Link>
                 </CardContent>
             </Card>
             
+
+            
+            <Card className="p-10 pb-20 pt-20 bg-[url('/banner/digital-marketing.png')] md:w-full sm:w-full 2xl:w-1/5 xl:w-1/4 m-5">
+                <CardHeader>
+                    <CardTitle>
+                        UI / UX Design
+                    </CardTitle>
+                    <CardDescription>
+                        User Interface / User Experience development
+                    </CardDescription>
+                </CardHeader>
+                <CardContent>
+                    <Link href="#">
+                        <Button>
+                            Learn More
+                        </Button>
+                    </Link>
+                </CardContent>
+            </Card>
+            <Card className="p-10 pb-20 pt-20 bg-[url('/banner/digital-marketing.png')] md:w-full sm:w-full 2xl:w-1/5 xl:w-1/4 m-5">
+                <CardHeader>
+                    <CardTitle>
+                        App Development
+                    </CardTitle>
+                    <CardDescription>
+                        Mobile app development with flutter
+                    </CardDescription>
+                </CardHeader>
+                <CardContent>
+                    <Link href="#">
+                        <Button>
+                            Learn More
+                        </Button>
+                    </Link>
+                </CardContent>
+            </Card>
         </div>
     </div>)
 }

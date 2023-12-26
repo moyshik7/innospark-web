@@ -61,7 +61,7 @@ const Navbar = () => {
                     <NavigationMenu>
                         <NavigationMenuList>
                             <NavigationMenuItem>
-                                <NavigationMenuLink className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
+                                <NavigationMenuLink href="/" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
                                     Home
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
@@ -115,7 +115,7 @@ const Navbar = () => {
                                 
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuLink href="#" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
+                                <NavigationMenuLink href="/projects" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
                                     Projects
                                 </NavigationMenuLink>
                             </NavigationMenuItem>

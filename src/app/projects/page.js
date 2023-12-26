@@ -3,6 +3,7 @@ import { Text } from '@radix-ui/themes';
 import { Header } from '@/components/home/header/header';
 import { ServiceSection } from '@/components/home/services/service';
 import { ClientsSection } from '@/components/home/clients/clients';
+import { ProjectsContainer } from '@/components/projects/projectContainer';
 
 export const metadata = {
   title: 'InnoSpark',
@@ -46,8 +47,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (<>
-    <Header/>
-    <ServiceSection/>
-    <ClientsSection/>
+    <ProjectsContainer/>
   </>)
 }
