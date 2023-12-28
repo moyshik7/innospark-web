@@ -1,8 +1,8 @@
 import { Inter } from 'next/font/google'
-import { Text } from '@radix-ui/themes';
 import { Header } from '@/components/home/header/header';
 import { ServiceSection } from '@/components/home/services/service';
 import { ClientsSection } from '@/components/home/clients/clients';
+import DisplayCards from '@/components/home/cards/displayCards';
 
 export const metadata = {
   title: 'InnoSpark',
@@ -47,6 +47,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (<>
     <Header/>
+    <DisplayCards/>
     <ServiceSection/>
     <ClientsSection/>
   </>)
