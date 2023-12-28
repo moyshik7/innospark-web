@@ -17,7 +17,7 @@ export const metadata = {
     description: 'Leading digital marketing service in Bangladesh',
     url: 'https://innosparkbd.com',
     siteName: 'InnoSpark',
-    images: 'https://images2.imgbox.com/57/71/NYnzgUOV_o.png',
+    images: 'https://innosparkbd.com//images/banners/2.png',
     locale: 'en_US',
     type: 'website',
   },
@@ -31,7 +31,7 @@ export const metadata = {
     title: 'InnoSpark',
     description: 'Leading digital marketing service in Bangladesh',
     creator: '@akiorochi',
-    images: ['https://images2.imgbox.com/57/71/NYnzgUOV_o.png'],
+    images: ['https://innosparkbd.com//images/banners/2.png'],
   },
 }
 
