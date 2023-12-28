@@ -4,17 +4,18 @@ import { GenerateWhyCard } from './list/whycard';
 
 const DisplayCards = () => {
     return (<>
+
         <GenerateDisplayCardLeft 
-            title="Web Development" 
-            description={`A website is essential for any business. It helps you reach a wider audience, establish your brand, and provide important information about your business. It can also help to increase sales and revenue`} 
-            image="/images/banners/web-dev.jpg"
+            title="Digital Marketing" 
+            description={`Build a magnetic marketing structure that genuinely forces your brand to rapidly grow and produce profit together without pushing, crying, or begging in your marketplace.`} 
+            image="/images/banners/digital-marketing.jpg"
         />
 
 
         <GenerateDisplayCardRight 
-            title="Digital Marketing" 
+            title="Web Development" 
             description={`A website is essential for any business. It helps you reach a wider audience, establish your brand, and provide important information about your business. It can also help to increase sales and revenue`} 
-            image="/images/banners/digital-marketing.jpg"
+            image="/images/banners/web-dev.jpg"
         />
         
 
