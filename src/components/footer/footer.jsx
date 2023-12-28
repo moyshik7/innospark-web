@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
 
                 <div className="w-full md:w-1/2 rounded-xl bg-card text-card-foreground text-center" >
-                    <Link href={`#`}>
+                    <Link href={`/tos`}>
                         <div className="p-5 text-lg font-bold">
                             Terms of Service
                         </div>
