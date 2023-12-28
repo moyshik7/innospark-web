@@ -3,6 +3,7 @@ import { Header } from '@/components/home/header/header';
 import { ServiceSection } from '@/components/home/services/service';
 import { ClientsSection } from '@/components/home/clients/clients';
 import DisplayCards from '@/components/home/cards/displayCards';
+import { BGImageboard } from '@/components/home/image/imageBoard';
 
 export const metadata = {
   title: 'InnoSpark',
@@ -47,6 +48,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (<>
     <Header/>
+    <BGImageboard/>
     <DisplayCards/>
     <ServiceSection/>
     <ClientsSection/>
