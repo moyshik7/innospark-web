@@ -1,25 +1,35 @@
 "use client"
 
 import React, { useEffect, useRef } from 'react';
+import Image from "next/image"
 
 const logos = [
-    "images/logo/logo-001.webp",
-    "images/logo/logo-002.webp",
-    "images/logo/logo-003.webp",
-    "images/logo/logo-004.webp",
-    "images/logo/logo-005.webp",
-    "images/logo/logo-006.webp",
-    "images/logo/logo-007.webp",
-    "images/logo/logo-008.webp",
-    "images/logo/logo-009.webp",
-    "images/logo/logo-010.webp",
-    "images/logo/logo-011.webp",
-    "images/logo/logo-012.webp",
-    "images/logo/logo-013.webp",
-    "images/logo/logo-014.webp",
-    "images/logo/logo-015.webp",
-    "images/logo/logo-016.webp",
-    "images/logo/logo-017.webp",
+    "/images/logo/logo-001.webp",
+    "/images/logo/logo-002.webp",
+    "/images/logo/logo-003.webp",
+    "/images/logo/logo-004.webp",
+    "/images/logo/logo-005.webp",
+    "/images/logo/logo-006.webp",
+    "/images/logo/logo-007.webp",
+    "/images/logo/logo-008.webp",
+    "/images/logo/logo-009.webp",
+    "/images/logo/logo-010.webp",
+    "/images/logo/logo-011.webp",
+    "/images/logo/logo-012.webp",
+    "/images/logo/logo-013.webp",
+    "/images/logo/logo-014.webp",
+    "/images/logo/logo-015.webp",
+    "/images/logo/logo-016.webp",
+    "/images/logo/logo-017.webp",
+    "/images/logo/logo-018.webp",
+    "/images/logo/logo-019.webp",
+    "/images/logo/logo-020.webp",
+    "/images/logo/logo-021.webp",
+    "/images/logo/logo-022.webp",
+    "/images/logo/logo-023.webp",
+    "/images/logo/logo-024.webp",
+    "/images/logo/logo-025.webp",
+    "/images/logo/logo-026.webp",
 ]
 
 const LogosList = () => {
@@ -38,13 +48,13 @@ const LogosList = () => {
         <div className="logo-container">
             <div ref={scrollRef} className="logo-scroll overflow-hidden flex flex-nowrap mt-20 w-auto">
                 {logos.map((logo, index) => (
-                    <img key={index} src={logo} alt={`logo-${index}`} className="logo mr-12 h-48 mr-40 rounded-lg" />
+                    <Image width={1024} height={1024} key={index} src={logo} alt={`logo-${index}`} className="logo mr-12 h-48 mr-40 rounded-lg" />
                 ))}
             </div>
 
             <style jsx>{`
                 .logo-scroll {
-                    animation: scroll 35s linear infinite;
+                    animation: scroll 40s linear infinite;
                 }
                 @keyframes scroll {
                     0% { transform: translateX(100%); }
