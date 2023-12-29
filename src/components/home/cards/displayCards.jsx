@@ -1,9 +1,14 @@
+"use client"
 import React from 'react';
 import { GenerateDisplayCardLeft, GenerateDisplayCardRight } from './list/displayCard1';
 import { GenerateWhyCard } from './list/whycard';
+import { GenerateStatsCard } from './list/statsCard';
+import LogosList from './list/logoList';
 
 const DisplayCards = () => {
     return (<>
+
+        <LogosList/>
 
         <GenerateDisplayCardLeft 
             title="Digital Marketing" 
@@ -40,6 +45,10 @@ const DisplayCards = () => {
             q={`Why Choose InnoSpark?`} 
             a={`InnoSpark Ltd is committed to delivering top-tier software solutions, tailored to facilitate the growth and success of businesses. Our team comprises seasoned professionals who are dedicated to their craft, consistently seeking innovative approaches to enhance our services. With a focus on meeting the unique needs and requirements of our clients, we prioritize the delivery of exceptional results and maintain a high standard of customer service. As a dynamic and forward-thinking company, we embrace challenges and opportunities, firmly believing in the transformative power of technology for businesses. We are eager to collaborate with clients, working towards the achievement of their goals. Thank you for considering InnoSpark for your software needs; we anticipate the opportunity to contribute to the thriving success of your business.`}
         />
+
+
+
+        <GenerateStatsCard q="aaa" a="aaa"/>
     </>);
 };
 
