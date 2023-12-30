@@ -51,7 +51,7 @@ const Navbar = () => {
         <>
             <div className="fixed top-0 left-0 bg-white dark:bg-black dark:bg-opacity-70 bg-opacity-50 backdrop-blur-lg md:grid grid-cols-12 right-0 w-full h-auto transition-all ease-in-out duration-300 z-50 lg:px-px py-2 hidden">
                 <Link href="/">
-                    <Image height={100} width={100} src="/logo.png" alt="sss" className="w-10 col-span-2" />
+                    <Image height={100} width={100} src="/logo.png" alt="sss" className="w-5 md:w-10 col-span-2" />
                 </Link>
                 <div className="col-span-10 flex justify-end">
                     <NavigationMenu>
@@ -130,7 +130,7 @@ const Navbar = () => {
             </div>
             <div className="fixed top-0 left-0 bg-white dark:bg-black dark:bg-opacity-70 bg-opacity-50 backdrop-blur-lg grid grid-cols-2 px-3 right-0 w-full h-auto transition-all ease-in-out duration-300 z-50 lg:px-28 py-2 md:hidden">
                 <Link href="/">
-                    <Image height={200} width={200} src="/logo.png" alt="sss" className="w-20 col-span-2" />
+                    <Image height={100} width={100} src="/logo.png" alt="sss" className="w-10 col-span-2" />
                 </Link>
                 <div className="flex justify-end">
                     <Sheet>
@@ -140,8 +140,11 @@ const Navbar = () => {
                         <SheetContent>
                             <SheetHeader>
                                 <SheetTitle className="flex flex-col items-end mt-16">
-                                    <Image height={100} width={100} src="/logo.png" alt="Chitrolekha" />
-                                    <p className="text-right text-sm mt-3">Abrakadabra Abrakadabra Abrakadabra Abrakadabra Abrakadabra </p>
+                                    <Image height={100} width={100} src="/logo.png" alt="Innospark" className="w-1/3 mb-10"/>
+                                    <p className="text-right text-sm mt-3">
+                                        Empowering Excellence, Igniting Innovation<br/>
+                                        Welcome to <span className="text-purple-600 text-lg">InnoSpark</span>
+                                    </p>
                                 </SheetTitle>
                                 <SheetDescription className="text-lg">
                                     <ul className="w-full text-md text-right font-semibold [&>*]:my-8">
