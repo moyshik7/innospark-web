@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import Slider from "react-slick";
 import Image from "next/image"
 import "slick-carousel/slick/slick.css";
@@ -50,7 +50,6 @@ const Ass = ({img}) => {
 }
 
 const LogosList = () => {
-    const scrollRef = useRef(null);
 
     const settings = {
         dots: true,
@@ -73,15 +72,6 @@ const LogosList = () => {
         autoplaySpeed: 2000,
         cssEase: "linear"
     };
-
-    useEffect(() => {
-        if (scrollRef.current) {
-            const totalWidth = Array.from(scrollRef.current.children).reduce(
-                (total, child) => total + child.offsetWidth, 0
-            );
-            scrollRef.current.style.width = `${totalWidth * 1.8}px`;
-        }
-    }, []);
 
     return (
         <div className="logo-container overflow-hidden mt-20 w-auto">
