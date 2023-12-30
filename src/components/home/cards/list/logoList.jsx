@@ -1,7 +1,10 @@
 "use client"
 
 import React, { useEffect, useRef } from 'react';
+import Slider from "react-slick";
 import Image from "next/image"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const logos = [
     "/images/logo/logo-001.webp",
@@ -32,8 +35,33 @@ const logos = [
     "/images/logo/logo-026.webp",
 ]
 
+const Ass = ({img}) => {
+    return(<>
+        <div className="flex flex-row justify-center items-center">
+            <Image 
+                width={1024} 
+                height={1024} 
+                src={img} 
+                alt={`logo-${img}`} 
+                className="logo h-48 w-48 mr-40 rounded-lg" 
+                />
+        </div>
+    </>)
+}
+
 const LogosList = () => {
     const scrollRef = useRef(null);
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        autoplay: true,
+        speed: 3000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
+    };
 
     useEffect(() => {
         if (scrollRef.current) {
@@ -45,22 +73,12 @@ const LogosList = () => {
     }, []);
 
     return (
-        <div className="logo-container">
-            <div ref={scrollRef} className="logo-scroll overflow-hidden flex flex-nowrap mt-20 w-auto">
+        <div className="logo-container overflow-hidden mt-20 w-auto">
+            <Slider {...settings}>
                 {logos.map((logo, index) => (
-                    <Image width={1024} height={1024} key={index} src={logo} alt={`logo-${index}`} className="logo mr-12 h-48 mr-40 rounded-lg" />
+                    <Ass img={logo} key={index} />
                 ))}
-            </div>
-
-            <style jsx>{`
-                .logo-scroll {
-                    animation: scroll 40s linear infinite;
-                }
-                @keyframes scroll {
-                    0% { transform: translateX(100%); }
-                    100% { transform: translateX(-100%); }
-                }
-            `}</style>
+            </Slider>
         </div>
     );
 };
