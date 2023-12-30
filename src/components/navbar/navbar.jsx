@@ -142,7 +142,7 @@ const Navbar = () => {
                                 <SheetTitle className="flex flex-col items-end mt-16">
                                     <Image height={100} width={100} src="/logo.png" alt="Innospark" className="w-1/3 mb-10"/>
                                     <p className="text-right text-sm mt-3">
-                                        Empowering Excellence, Igniting Innovation<br/>
+                                        From Spark to Wildfire. We Ignite Brand Growth<br/>
                                         Welcome to <span className="text-purple-600 text-lg">InnoSpark</span>
                                     </p>
                                 </SheetTitle>
