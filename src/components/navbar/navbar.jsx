@@ -84,19 +84,19 @@ const Navbar = () => {
                                 <NavigationMenuContent>
                                     <div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr] rounded-lg">
                                         <div className="row-span-3">
-                                            <NavigationMenuLink asChild>
+                                            <NavigationMenuLink href="/service/motion-graphics/" asChild>
                                                 <div className="h-full w-full relative bg-[url('/banner/motion-graphics.gif')] bg-cover rounded-lg">
-                                                    <Link className="flex h-full absolute top-0 left-0 right-0 bottom-0 w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-transparent to-chitro p-6 no-underline outline-none focus:shadow-md" href="#">
+                                                    <Link className="flex h-full absolute top-0 left-0 right-0 bottom-0 w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-transparent to-chitro p-6 no-underline outline-none focus:shadow-md" href="/service/motion-graphics/">
                                                         <div className="mb-2 mt-1 text-lg font-bold text-white">Motion Graphics</div>
                                                         <p className="text-sm leading-tight"></p>
                                                     </Link>
                                                 </div>
                                             </NavigationMenuLink>
                                         </div>
-                                        <ListItem href="/service" title="Digital Marketing">
+                                        <ListItem href="/service/digital-marketing/" title="Digital Marketing">
                                             We bring your vision to life with creativity and precision
                                         </ListItem>
-                                        <ListItem href="/service" title="Web Development">
+                                        <ListItem href="/service/web-dev/" title="Web Development">
                                             Elevate your brand&apos;s story with captivating visuals
                                         </ListItem>
                                         <NavigationMenuLink href="/service">

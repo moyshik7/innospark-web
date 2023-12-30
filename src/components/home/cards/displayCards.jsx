@@ -6,6 +6,16 @@ import { GenerateStatsCard } from './list/statsCard';
 import LogosList from './list/logoList';
 
 const DisplayCards = () => {
+    /*
+    const target = useRef(null);
+    const { scrollYProgress } = useScroll({
+        target,
+        offset: ['start end', 'end start'],
+    });
+    const parallax = useTransform(scrollYProgress, [0, 1], [-100, 100]);
+    const reverseParallax = useTransform(parallax, (v) => -v);
+    useMotionValueEvent(parallax, 'change', (v) => console.log(v));
+    */
     return (<>
 
         <LogosList/>
@@ -17,7 +27,7 @@ const DisplayCards = () => {
         />
 
         <GenerateDisplayCardRight 
-            title="Graphics Designer" 
+            title="Graphics Design" 
             description={`Elevate your brand with our expertly crafted visual solutions. From sleek logos to impactful marketing materials, our designs seamlessly blend creativity and functionality. Experience the epitome of design excellence for a lasting brand impression`} 
             image="/images/banners/graphics.webp"
         />
@@ -56,22 +66,22 @@ const DisplayCards = () => {
 
         <div className="block lg:flex flex-row flex-wrap">
             <GenerateStatsCard
-                q="01. Data + Brainstorming" 
+                q="Data + Brainstorming" 
                 a="Data takes the spotlight as the ultimate key to our success! We're armed with a treasure trove of market data collected over years across a myriad of industries. By blending this historical industry wisdom and competitor insights with your current business data, we kick off a cheerful brainstorming session on how to achieve some seriously awesome results!ll lg:w-1/2" 
                 image="/images/box/logo-018.webp"
             />
             <GenerateStatsCard 
-                q="02. Strategy + Execution" 
+                q="Strategy + Execution" 
                 a="In the exciting realm of business growth, our secret sauce involves crafting vibrant, custom campaign strategies driven by data! We pride ourselves on infusing every strategy with the power of data, ensuring adaptability for a future that's as bright as your business aspirations. Picture our execution plan as a lively roadmap, filled with targets, goals, milestones, tasks, and deadlines – because we believe in turning every business journey into a cheerful adventure!" 
                 image="/images/box/logo-019.webp"
             />
             <GenerateStatsCard 
-                q="03. Consistency + Quality" 
+                q="Consistency + Quality" 
                 a="In the delightful dance of execution, quality, and consistency, success is sure to take center stage! Our specially crafted Standard Operating Procedures (SOP) and cutting-edge automation, which is the talk of the industry, join forces to ensure unwavering consistency. Think of our work process as a symphony of checklists, with extensive automation sprinkled at every level, guaranteeing not just results, but results that sparkle with top-notch quality!" 
                 image="/images/box/logo-020.webp"
             />
             <GenerateStatsCard 
-                q="04. KPI Tracking + Optimization" 
+                q="KPI Tracking + Optimization" 
                 a="We're on a joyous mission, setting up advanced KPIs that gleefully track every move, even diving into the delightful world of behavior analysis to witness how our services are spreading joy and growth throughout your business. With a continuous dance of tracking and measurement involving over 50+ different data points, we joyfully fine-tune the campaign, aiming for results that sparkle with success!" 
                 image="/images/box/logo-021.webp"
             />
