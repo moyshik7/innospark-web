@@ -63,6 +63,17 @@ const LogosList = () => {
         cssEase: "linear"
     };
 
+    const settingsMobile = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        autoplay: true,
+        speed: 3000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
+    };
+
     useEffect(() => {
         if (scrollRef.current) {
             const totalWidth = Array.from(scrollRef.current.children).reduce(
@@ -74,11 +85,21 @@ const LogosList = () => {
 
     return (
         <div className="logo-container overflow-hidden mt-20 w-auto">
+            <div className="hidden lg:block">
             <Slider {...settings}>
                 {logos.map((logo, index) => (
                     <Ass img={logo} key={index} />
                 ))}
             </Slider>
+            </div>
+
+            <div className="block lg:hidden">
+            <Slider {...settingsMobile}>
+                {logos.map((logo, index) => (
+                    <Ass img={logo} key={index} />
+                ))}
+            </Slider>
+            </div>
         </div>
     );
 };
