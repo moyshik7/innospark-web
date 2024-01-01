@@ -4,9 +4,9 @@ import Image from "next/image"
 
 export const GenerateStatsCard = ({q, a, image}) => {
     return (
-        <div className="flex items-center justify-center m-0 mt-20 mb-20 p-10 md:p-20 md:pb-10 md:pt-10 lg:p-40 lg:pt-10 lg:pb-10 w-full lg:w-1/2">
+        <div className="flex justify-center m-0 mt-10 mb-10 w-full md:w-1/3 lg:w-1/4">
             <div className="overflow-hidden">
-                <div className="p-8 flex flex-col items-center justify-center w-full space-a  text-center">
+                <div className="p-3 w-full">
                     <Image
                         src={image}
                         alt={a}

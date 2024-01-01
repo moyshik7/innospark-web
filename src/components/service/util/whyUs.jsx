@@ -16,8 +16,8 @@ const robotoBold = Roboto({
 
 
 export const WhyUsCard = () => {
-    return(<div className="flex justify-around items-stretch flex-wrap pt-20 pb-20 bg-teal-300 dark:bg-teal-600">
-        <div className="pt-16 pb-16 w-full lg:w-1/3 mr-5 ml-5">
+    return(<div className="flex justify-around items-stretch flex-wrap bg-teal-300 dark:bg-teal-600">
+        <div className="w-full lg:w-1/3 mr-5 ml-5 pt-10 pb-10">
             <div className="mb-14">
                 <h3 className={`${roboto.className} text-3xl`}>
                     Why choose us InnoSpark your outsourced Agency?
@@ -100,10 +100,10 @@ export const WhyUsCard = () => {
                 </Link>
             </div>
         </div>
-        <div className="pt-16 pb-16 w-full lg:w-1/3 mr-5 ml-5 flex items-center justify-center">
+        <div className="w-full lg:w-1/3 mr-5 ml-5 flex items-center justify-center">
             <Image
                 src={"/images/bg/pam.jpg"}
-                className="w-full max-w-xl"
+                className="w-full"
                 alt="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5678997"
                 width={1280}
                 height={1920}

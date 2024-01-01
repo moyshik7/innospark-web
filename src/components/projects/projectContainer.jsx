@@ -6,7 +6,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 export const ProjectsContainer = () => {
     return (<>
-        <div className={`mt-20 md:w-full min-h-screen xl:p-72 lg:p-52 md:p-28 sm:p-0 hidden lg:block md:block`} style={{display: "hidden"}}>
+        <div className={`mt-20 md:w-full min-h-screen md:p-28 sm:p-0 hidden md:block`} style={{display: "hidden"}}>
             <Carousel opts={{ align: 'center' }} className={`sm:hidden md:block`}>
                 <CarouselContent>
                     <CarouselItem key={0} className="xl:basis-1/5 md:basis-1/3 lg:basis-1/4">
