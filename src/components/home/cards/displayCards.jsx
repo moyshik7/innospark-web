@@ -2,19 +2,14 @@
 import React from 'react';
 import { GenerateDisplayCardLeft, GenerateDisplayCardRight } from './list/displayCard1';
 import { GenerateStatsCard } from './list/statsCard';
-import LogosList from './list/logoList';
 import { WhyUsCard } from '@/components/service/util/whyUs';
 
 const DisplayCards = () => {
     return (<>
-
-        <LogosList/>
         <div className="w-full mt-20" />
 
 
-        
         <WhyUsCard/>
-
 
 
 
