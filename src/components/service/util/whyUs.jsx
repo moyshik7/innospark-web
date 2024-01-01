@@ -20,7 +20,7 @@ export const WhyUsCard = () => {
         <div className="pt-16 pb-16 w-full lg:w-1/3 mr-5 ml-5">
             <div className="mb-14">
                 <h3 className={`${roboto.className} text-3xl`}>
-                    Why choose us as your outsourced Agency?
+                    Why choose us InnoSpark your outsourced Agency?
                 </h3>
             </div>
             <div className="mb-14">
