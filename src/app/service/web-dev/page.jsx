@@ -1,6 +1,3 @@
-import { Inter } from 'next/font/google';
-import { Service } from '@/components/service/service';
-import DisplayCards from '@/components/home/cards/displayCards';
 import { WebDevService } from '@/components/service/webDev';
 
 export const metadata = {
@@ -21,7 +18,7 @@ export const metadata = {
         'Create website in Bangladesh',
         'Portfolio website in bangladesh'
     ],
-    
+
     openGraph: {
         title: 'Web Development - InnoSpark',
         description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
@@ -52,7 +49,6 @@ export const viewport = {
     colorScheme: 'dark',
 }
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
     return (<>

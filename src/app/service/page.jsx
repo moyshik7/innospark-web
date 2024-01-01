@@ -1,4 +1,3 @@
-import { Inter } from 'next/font/google';
 import { Service } from '@/components/service/service';
 import DisplayCards from '@/components/home/cards/displayCards';
 
@@ -38,8 +37,6 @@ export const viewport = {
     maximumScale: 1,
     colorScheme: 'dark',
 }
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
     return (<>
