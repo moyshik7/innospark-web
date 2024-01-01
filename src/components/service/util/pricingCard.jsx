@@ -1,6 +1,12 @@
 "use client"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Roboto } from 'next/font/google'
+
+const roboto = Roboto({
+    weight: '700',
+    subsets: ['latin'],
+})
 
 
 export const PricingCard = ({ title, text, children }) => {
@@ -8,7 +14,7 @@ export const PricingCard = ({ title, text, children }) => {
         <div className="pt-16 pb-16 w-full md:w-1/3 lg:w-1/4 mr-5 ml-5">
             <Card className="shadow-lg">
                 <CardHeader>
-                    <CardTitle className="text-xl lg:text-2xl capitalize">
+                    <CardTitle className={`text-xl lg:text-2xl capitalize ${roboto.className}`}>
                         {title}
                     </CardTitle>
                 </CardHeader>

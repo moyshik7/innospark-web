@@ -12,7 +12,7 @@ import {
 
 export const WebDevPricingCards = () => {
     return(<>
-        <div className="flex flex-row justify-around items-stretch flex-wrap mt-32 lg:mt-56">
+        <div className="flex flex-row justify-around items-stretch flex-wrap">
             <PricingCard 
                 title={"Enterprise website"} 
                 text={"Elevate your corporate presence to new heights with our cutting-edge Corporate Website solution. Harnessing the power of leading technologies such as Node.js, NextJS, MongoDB, Python, PHP, MySQL, and PostgreSQL, we craft bespoke websites that seamlessly blend innovation and functionality. Our expert team works diligently to transform your vision into a digital masterpiece, ensuring a swift and efficient delivery within just a few weeks. From intuitive user interfaces to robust backend systems, we tailor every aspect to reflect the professionalism and sophistication your brand deserves. Step confidently into the digital realm with our Corporate Website service, where advanced technology meets accelerated delivery for a digital transformation that speaks volumes about your business prowess."}
