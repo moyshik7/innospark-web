@@ -117,6 +117,74 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Branding</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Create logos and graphic content</li>
+                                    <li className="mt-2">Reasonable Pricing</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">SSL Encryption</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Better security guranteed</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Security Guranteed</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your website vulnerability free</li>
+                                    <li className="mt-2">Ensure encryption</li>
+                                    <li className="mt-2">Secure storage of Password</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">User Authentication</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Allows users to create accounts on your website</li>
+                                    <li className="mt-2">Log in Option</li>
+                                    <li className="mt-2">Sign up option</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Newsletter</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>MAke your users know what&apos;s going on with our newsletter system</li>
+                                    <li className="mt-2">Weekly Newsletter</li>
+                                    <li className="mt-2">Monthly Summary</li>
+                                    <li className="mt-2">Year Recap</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
                 </div>
             </PricingCard>
 
@@ -243,7 +311,133 @@ export const WebDevPricingCards = () => {
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="text-violet-400">Server Configaration</AccordionTrigger>
                             <AccordionContent>
-                                LOrem Ipsum De ODOR
+                                <ul>
+                                    <li>We find the best hosting in your budget</li>
+                                    <li className="mt-2">Fully Managed</li>
+                                    <li className="mt-2 font-semibold">Lifetime Debugging</li>
+                                    <li className="mt-2">Hassle free hosting</li>
+                                    <li className="mt-2">Low Cost Maintenance</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Custom Design tailored around the website&apos;s goal</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Custom website according to your needs</li>
+                                    <li className="mt-2">Top Notch UI Design</li>
+                                    <li className="mt-2">Best User Experience Guaranteed</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Course Modules & Course Reviews</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Add Course Videos</li>
+                                    <li className="mt-2">Live Stream Videos</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Speed Optimized</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your site lightning Fast</li>
+                                    <li className="mt-2">Cold cache make loading 30-40 times Faster</li>
+                                    <li className="mt-2">Decrease server load</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Course / Education Level</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Create Different content for different education level</li>
+                                    <li className="mt-2">Create classroom between users</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Exam System</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Create Exams</li>
+                                    <li className="mt-2">Create Grading System</li>
+                                    <li className="mt-2">Sending Result via Message / Email</li>
+                                    <li className="mt-2">Custom grading system for different course</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Certificate Issuing</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Issue certificate upon completing course</li>
+                                    <li className="mt-2">Unique certificate ID</li>
+                                    <li className="mt-2">Verify certificates</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Class Alerts for Students</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Create message alert for students</li>
+                                    <li className="mt-2">Create Email alerts for students</li>
+                                    <li className="mt-2">Send class link in message / email</li>
+                                    <li className="mt-2">Result Alert</li>
+                                    <li className="mt-2">Absent Alert</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Setup Payment</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Accept Online Payment via</li>
+                                    <li className="mt-2">
+                                        <ul className="ml-5">
+                                            <li className="mt-2">BKash</li>
+                                            <li className="mt-2">Nagad</li>
+                                            <li className="mt-2">Upay</li>
+                                            <li className="mt-2">Credit Cards</li>
+                                            <li className="mt-2">Debit Cards</li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
