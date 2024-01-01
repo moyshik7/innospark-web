@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import { Service } from '@/components/service/service';
 import DisplayCards from '@/components/home/cards/displayCards';
+import { WebDevService } from '@/components/service/webDev';
 
 export const metadata = {
     title: 'InnoSpark',
@@ -43,6 +44,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
     return (<>
-        <h1 className="mt-56 mb-56 text-3xl text-center">Web Development</h1>
+        <WebDevService/>
     </>)
 }
