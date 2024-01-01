@@ -100,13 +100,13 @@ export const WhyUsCard = () => {
                 </Link>
             </div>
         </div>
-        <div className="pt-16 pb-16 w-full lg:w-1/3 mr-5 ml-5">
+        <div className="pt-16 pb-16 w-full lg:w-1/3 mr-5 ml-5 flex items-center justify-center">
             <Image
-                src={"https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
-                className="w-full"
-                alt=" "
-                width={1974}
-                height={2880}
+                src={"/images/bg/pam.jpg"}
+                className="w-full max-w-xl"
+                alt="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5678997"
+                width={1280}
+                height={1920}
             />
         </div>
     </div>)
