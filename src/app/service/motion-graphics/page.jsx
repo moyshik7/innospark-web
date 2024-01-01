@@ -1,5 +1,4 @@
 import { MotionService } from '@/components/service/motion';
-import { WebDevService } from '@/components/service/webDev';
 
 export const metadata = {
     title: 'Motion Graphics - InnoSpark',
