@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+ALlow: /*
+Allow: /clients
+Allow: /projects
+Allow: /service
+Allow: /service/*
+Allow: /service/digital-marketing
+Allow: /service/web-dev
+Allow: /service/motion-graphics
+Allow: /tos
+Disallow: /vuski
+
+
+User-agent: vuski
+Allow: /
+Disallow: /fardin
+
+User-agent: priya
+Disallow: /kopot
+Disallow: /fahim
+Allow: /lazim
+
+User-agent: cia
+Allow: /nothing-sus-here/
+Disallow: /*
