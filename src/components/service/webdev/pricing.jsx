@@ -453,11 +453,116 @@ export const WebDevPricingCards = () => {
                 text={"Dive into the world of tailored excellence with our Niche Sites service, where precision meets innovation to craft online platforms finely tuned to specific interests and industries. Harnessing the technological prowess of Node.js, NextJS, MongoDB, Python, PHP, MySQL, and PostgreSQL, we specialize in creating bespoke websites that not only meet but exceed the unique demands of niche markets. Our dedicated team is committed to transforming your vision into reality swiftly and efficiently, delivering powerful and visually stunning websites within a matter of weeks. Whether you're in need of a specialized blog, community forum, or industry-specific portal, our Niche Sites service ensures a seamless fusion of cutting-edge technology and strategic design, setting you apart in the digital landscape. Elevate your online presence with a tailored digital space that caters to your niche audience, turning possibilities into captivating realities. Join us in the journey of crafting niche-specific websites that leave a lasting impression and redefine excellence in the digital sphere."}
             >
                 <div>
-                    <Accordion type="single" collapsible>
+                <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="text-violet-400">Server Configaration</AccordionTrigger>
                             <AccordionContent>
-                                LOrem Ipsum De ODOR
+                                <ul>
+                                    <li>We find the best hosting in your budget</li>
+                                    <li className="mt-2">Fully Managed</li>
+                                    <li className="mt-2 font-semibold">Lifetime Debugging</li>
+                                    <li className="mt-2">Hassle free hosting</li>
+                                    <li className="mt-2">Low Cost Maintenance</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Custom Design tailored around the website&apos;s goal</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Custom website according to your needs</li>
+                                    <li className="mt-2">Top Notch UI Design</li>
+                                    <li className="mt-2">Best User Experience Guaranteed</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Analytics and Tracking</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Google Analytics</li>
+                                    <li className="mt-2">Vercel Analytics</li>
+                                    <li className="mt-2">Facebook Analytics</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Powerful Blog with SEO</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Custom Built Blog Site</li>
+                                    <li className="mt-2">Search Engine Optimized</li>
+                                    <li className="mt-2">Custom Designed Blog Editor</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Training on how to operate your Website</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Video Tutorial</li>
+                                    <li className="mt-2">In depth Training</li>
+                                    <li className="mt-2">Online / Offline Training</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Speed Optimized</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your site lightning Fast</li>
+                                    <li className="mt-2">Cold cache make loading 30-40 times Faster</li>
+                                    <li className="mt-2">Decrease server load</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Backlink Building</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your website reach top in SEO</li>
+                                    <li className="mt-2">Legit backlink building</li>
+                                    <li className="mt-2">Increase Traffic by 800%</li>
+                                    <li className="mt-2">Increase Google search appearance by 2100%</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Security Guranteed</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your website vulnerability free</li>
+                                    <li className="mt-2">Ensure encryption</li>
+                                    <li className="mt-2">Secure storage of Password</li>
+                                </ul>
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
@@ -473,11 +578,116 @@ export const WebDevPricingCards = () => {
                 text={"Immerse yourself in the world of personalized digital expression with our Hobby/Personal Website service, where we seamlessly blend passion and technology to craft online masterpieces tailored to your individual interests. Leveraging the dynamic capabilities of Node.js, NextJS, MongoDB, Python, PHP, MySQL, and PostgreSQL, our dedicated team transforms ideas into reality within just a few weeks, ensuring a swift and seamless development process. Whether you're creating a hobby blog or a personal portfolio, our websites resonate with your unique style, offering a visually engaging and user-friendly experience. Elevate your online presence and turn your hobbies into an interactive journey that captivates and inspires. Join us in shaping a digital space that reflects the essence of who you are, effortlessly combining technology and passion to create a website that truly stands out."}
             >
                 <div>
-                    <Accordion type="single" collapsible>
+                <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="text-violet-400">Server Configaration</AccordionTrigger>
                             <AccordionContent>
-                                LOrem Ipsum De ODOR
+                                <ul>
+                                    <li>We find the best hosting in your budget</li>
+                                    <li className="mt-2">Fully Managed</li>
+                                    <li className="mt-2 font-semibold">Lifetime Debugging</li>
+                                    <li className="mt-2">Hassle free hosting</li>
+                                    <li className="mt-2">Low Cost Maintenance</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Custom Design tailored around the website&apos;s goal</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Custom website according to your needs</li>
+                                    <li className="mt-2">Top Notch UI Design</li>
+                                    <li className="mt-2">Best User Experience Guaranteed</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Analytics and Tracking</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Google Analytics</li>
+                                    <li className="mt-2">Vercel Analytics</li>
+                                    <li className="mt-2">Facebook Analytics</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Powerful Blog with SEO</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Custom Built Blog Site</li>
+                                    <li className="mt-2">Search Engine Optimized</li>
+                                    <li className="mt-2">Custom Designed Blog Editor</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Training on how to operate your Website</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Video Tutorial</li>
+                                    <li className="mt-2">In depth Training</li>
+                                    <li className="mt-2">Online / Offline Training</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Speed Optimized</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your site lightning Fast</li>
+                                    <li className="mt-2">Cold cache make loading 30-40 times Faster</li>
+                                    <li className="mt-2">Decrease server load</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Backlink Building</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your website reach top in SEO</li>
+                                    <li className="mt-2">Legit backlink building</li>
+                                    <li className="mt-2">Increase Traffic by 800%</li>
+                                    <li className="mt-2">Increase Google search appearance by 2100%</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Security Guranteed</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your website vulnerability free</li>
+                                    <li className="mt-2">Ensure encryption</li>
+                                    <li className="mt-2">Secure storage of Password</li>
+                                </ul>
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
@@ -525,6 +735,106 @@ export const WebDevPricingCards = () => {
                             <AccordionTrigger className="text-violet-400">Showcase Site</AccordionTrigger>
                             <AccordionContent>
                                 LOrem Ipsum De ODOR
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Security Guranteed</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your website vulnerability free</li>
+                                    <li className="mt-2">Ensure encryption</li>
+                                    <li className="mt-2">Secure storage of Password</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Server Configaration</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>We find the best hosting in your budget</li>
+                                    <li className="mt-2">Fully Managed</li>
+                                    <li className="mt-2 font-semibold">Lifetime Debugging</li>
+                                    <li className="mt-2">Hassle free hosting</li>
+                                    <li className="mt-2">Low Cost Maintenance</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Custom Design tailored around the website&apos;s goal</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Custom website according to your needs</li>
+                                    <li className="mt-2">Top Notch UI Design</li>
+                                    <li className="mt-2">Best User Experience Guaranteed</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Analytics and Tracking</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Google Analytics</li>
+                                    <li className="mt-2">Vercel Analytics</li>
+                                    <li className="mt-2">Facebook Analytics</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Powerful Blog with SEO</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Custom Built Blog Site</li>
+                                    <li className="mt-2">Search Engine Optimized</li>
+                                    <li className="mt-2">Custom Designed Blog Editor</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Speed Optimized</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your site lightning Fast</li>
+                                    <li className="mt-2">Cold cache make loading 30-40 times Faster</li>
+                                    <li className="mt-2">Decrease server load</li>
+                                </ul>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+
+                    
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger className="text-violet-400">Backlink Building</AccordionTrigger>
+                            <AccordionContent>
+                                <ul>
+                                    <li>Make your website reach top in SEO</li>
+                                    <li className="mt-2">Legit backlink building</li>
+                                    <li className="mt-2">Increase Traffic by 800%</li>
+                                    <li className="mt-2">Increase Google search appearance by 2100%</li>
+                                </ul>
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
