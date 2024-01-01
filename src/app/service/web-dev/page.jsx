@@ -24,7 +24,7 @@ export const metadata = {
         description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
         url: 'https://innosparkbd.com',
         siteName: 'InnoSpark',
-        images: 'https://images2.imgbox.com/57/71/NYnzgUOV_o.png',
+        images: 'https://innosparkbd.com/images/bg/web-dev.jpg',
         locale: 'en_US',
         type: 'website',
     },
@@ -37,7 +37,7 @@ export const metadata = {
         title: 'Web Development - InnoSpark',
         description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
         creator: '@akiorochi',
-        images: ['https://images2.imgbox.com/57/71/NYnzgUOV_o.png'],
+        images: ['https://innosparkbd.com/images/bg/web-dev.jpg'],
     },
 }
 
