@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Roboto } from 'next/font/google'
 import { WebDevPackageText } from './webdev/packagesText';
 import { WebDevPricingCards } from './webdev/pricing';
+import { WhyUsCard } from './util/whyUs';
 
 const roboto = Roboto({
     weight: '700',
@@ -18,5 +19,6 @@ export const WebDevService = () => {
         </div>
         <WebDevPackageText/>
         <WebDevPricingCards/>
+        <WhyUsCard/>
     </>);
 };
