@@ -4,15 +4,27 @@ import DisplayCards from '@/components/home/cards/displayCards';
 import { WebDevService } from '@/components/service/webDev';
 
 export const metadata = {
-    title: 'InnoSpark',
-    description: 'Leading digital marketing service in Bangladesh',
+    title: 'Web Development - InnoSpark',
+    description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
 
     metadataBase: new URL('https://innosparkbd.com'),
   
-    keywords: ['Next.js', 'React', 'JavaScript'],
+    keywords: [
+        'Web development in Bangladesh', 
+        'Web Dev in bd', 
+        'Website building', 
+        'Tech Company in Bangladesh', 
+        'Enterprise website in bangladesh', 
+        'E-Commerce Website in bd',
+        'Education / Coaching Site in Bangladesh',
+        'Personal website in bangladesh',
+        'Create website in Bangladesh',
+        'Portfolio website in bangladesh'
+    ],
+    
     openGraph: {
-        title: 'InnoSpark',
-        description: 'Leading digital marketing service in Bangladesh',
+        title: 'Web Development - InnoSpark',
+        description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
         url: 'https://innosparkbd.com',
         siteName: 'InnoSpark',
         images: 'https://images2.imgbox.com/57/71/NYnzgUOV_o.png',
@@ -25,8 +37,8 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'InnoSpark',
-        description: 'Leading digital marketing service in Bangladesh',
+        title: 'Web Development - InnoSpark',
+        description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
         creator: '@akiorochi',
         images: ['https://images2.imgbox.com/57/71/NYnzgUOV_o.png'],
     },

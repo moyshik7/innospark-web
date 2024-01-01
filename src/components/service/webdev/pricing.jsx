@@ -32,7 +32,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -46,7 +45,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -60,7 +58,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -74,7 +71,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -89,7 +85,6 @@ export const WebDevPricingCards = () => {
                         </AccordionItem>
                     </Accordion>
 
-                    
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="text-violet-400">Speed Optimized</AccordionTrigger>
@@ -102,7 +97,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -118,7 +112,6 @@ export const WebDevPricingCards = () => {
                         </AccordionItem>
                     </Accordion>
 
-
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="text-violet-400">Branding</AccordionTrigger>
@@ -131,7 +124,6 @@ export const WebDevPricingCards = () => {
                         </AccordionItem>
                     </Accordion>
 
-
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="text-violet-400">SSL Encryption</AccordionTrigger>
@@ -142,7 +134,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
 
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -157,7 +148,6 @@ export const WebDevPricingCards = () => {
                         </AccordionItem>
                     </Accordion>
 
-
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="text-violet-400">User Authentication</AccordionTrigger>
@@ -170,7 +160,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
 
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -210,7 +199,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -224,7 +212,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -238,7 +225,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -252,7 +238,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -266,7 +251,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -280,7 +264,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -321,7 +304,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -335,7 +317,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -348,7 +329,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -362,7 +342,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -375,7 +354,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -390,7 +368,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -404,7 +381,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -420,7 +396,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
 
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -467,7 +442,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -481,7 +455,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -495,7 +468,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -509,7 +481,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -523,7 +494,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -537,7 +507,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -552,7 +521,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
 
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -592,7 +560,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -606,7 +573,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -620,7 +586,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -634,7 +599,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -648,7 +612,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -662,7 +625,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -677,7 +639,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
 
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -739,7 +700,6 @@ export const WebDevPricingCards = () => {
                         </AccordionItem>
                     </Accordion>
 
-
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger className="text-violet-400">Security Guranteed</AccordionTrigger>
@@ -767,7 +727,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -781,7 +740,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -795,7 +753,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -809,7 +766,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
@@ -823,7 +779,6 @@ export const WebDevPricingCards = () => {
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
-
                     
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
