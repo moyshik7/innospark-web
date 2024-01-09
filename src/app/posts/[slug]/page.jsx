@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
