@@ -60,9 +60,9 @@ export async function generateMetadata({ params }) {
             description: post.data.subtitle,
             url: 'https://innosparkbd.com',
             siteName: 'InnoSpark',
-            images: 'https://innosparkbd.com//images/banners/2.png',
-            locale: 'en_US',
-            type: 'website',
+            images: post.data.image,
+            locale: 'en_uS',
+            type: 'article',
         },
         robots: {
             index: true,
@@ -73,7 +73,7 @@ export async function generateMetadata({ params }) {
             title: post.data.title,
             description: post.data.subtitle,
             creator: '@akiorochi',
-            images: ['https://innosparkbd.com//images/banners/2.png'],
+            images: [post.data.image, 'https://innosparkbd.com//images/banners/2.png'],
         },
     };
 }
