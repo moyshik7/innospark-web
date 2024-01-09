@@ -39,12 +39,12 @@ const Ass = ({img}) => {
     return(<>
         <div className="flex flex-row justify-center items-center">
             <Image 
-                width={1024} 
-                height={1024} 
+                width={100} 
+                height={100} 
                 src={img} 
                 alt={`logo-${img}`} 
                 className="logo h-48 w-48 mr-40 rounded-lg" 
-                />
+            />
         </div>
     </>)
 }
@@ -66,16 +66,16 @@ const LogosList = () => {
         dots: true,
         infinite: true,
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
         speed: 3000,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 500,
         cssEase: "linear"
     };
 
     return (
         <div className="logo-container overflow-hidden mt-20 w-auto">
-            <div className="hidden lg:block">
+            <div className="hidden xl:block">
             <Slider {...settings}>
                 {logos.map((logo, index) => (
                     <Ass img={logo} key={index} />
@@ -83,7 +83,7 @@ const LogosList = () => {
             </Slider>
             </div>
 
-            <div className="block lg:hidden">
+            <div className="block xl:hidden">
             <Slider {...settingsMobile}>
                 {logos.map((logo, index) => (
                     <Ass img={logo} key={index} />

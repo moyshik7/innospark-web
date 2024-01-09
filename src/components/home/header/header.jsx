@@ -1,12 +1,19 @@
 "use client"
 import { TypeAnimation } from 'react-type-animation';
 import { Text } from "@radix-ui/themes"
+import Image from "next/image"
 import LogosList from '../cards/list/logoList';
 
 export const Header = () => {
-    return(<><div className={`flex flex-col w-f text-3xl text-center min-h-screen items-center justify-center bg-gradient-to-r from-purple-500 dark:from-purple-800 to-pink-500 dark:to-pink-800 bg-cover`}
-        style={{background: /*"radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(240,179,249,1) 62%, rgba(148,187,233,1) 100%)"*/ "url('/images/background.gif')", backgroundSize: "cover"}}
-    >
+    return(<><div className={`flex flex-col w-f text-3xl text-center min-h-screen items-center justify-center`}
+        style={{}}>
+        <Image 
+            src="/images/background.gif"
+            alt=" aaaa "
+            layout="fill"
+            className="object-center object-cover pointer-events-none opacity-40"
+            objectFit="cover"
+        />
         <div className="pt-5 pb-5 w-full text-6xl text-violet-600 font-mono mb-20 animate-bounce cursor-pointer">
             InnoSpark
         </div>
