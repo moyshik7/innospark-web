@@ -13,6 +13,7 @@ export const Header = () => {
             layout="fill"
             className="object-center object-cover pointer-events-none opacity-40"
             objectFit="cover"
+            loading="lazy"
         />
         <div className="pt-5 pb-5 w-full text-6xl text-violet-600 font-mono mb-20 animate-bounce cursor-pointer">
             InnoSpark

@@ -44,6 +44,7 @@ const Ass = ({img}) => {
                 src={img} 
                 alt={`logo-${img}`} 
                 className="logo h-48 w-48 mr-40 rounded-lg" 
+                loading="eager"
             />
         </div>
     </>)
