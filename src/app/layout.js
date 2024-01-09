@@ -1,5 +1,6 @@
 "use client"
-import '@/styles/globals.css'
+
+import "@/styles/globals.css"
 import { Inter } from 'next/font/google'
 import '@radix-ui/themes/styles.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
