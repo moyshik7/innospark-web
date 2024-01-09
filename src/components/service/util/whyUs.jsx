@@ -1,6 +1,5 @@
 "use client"
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Roboto } from 'next/font/google'
 import Link from "next/link"
 import Image from "next/image"
@@ -95,7 +94,7 @@ export const WhyUsCard = () => {
             <div  className="mb-14 w-full">
                 <Link href={"#"} className="w-full flex flex-row justify-center items-center text-center">
                     <div className={`${robotoBold.className} text-xl w-1/2 border text-center pt-5 pb-5 rounded-tl-3xl rounded-br-3xl font-semibold text-white bg-rose-500 hover:shadow-lg hover:shadow-rose-300`}>
-                        MEET THE TEAM
+                        BOOK A MEETING
                     </div>
                 </Link>
             </div>
