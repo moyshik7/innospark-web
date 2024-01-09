@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 
 
-import { Facebook, Twitter, MessageSquare } from "lucide-react";
+import { Facebook, Twitter, MessageSquare, Phone } from "lucide-react";
 import { Switch } from "../ui/switch";
 
 const Footer = () => {
@@ -16,17 +16,22 @@ const Footer = () => {
                 <div className="w-full md:w-1/2 rounded-xl bg-card text-card-foreground text-center" >
                     <Link href={`#`} target="_blank">
                         <div className="p-5 text-lg font-bold flex flex-row items-center justify-center">
-                            <Facebook /> Facebook
+                            <Facebook /> &nbsp;&nbsp;Facebook
                         </div>
                     </Link>
                     <Link href={`#`} target="_blank">
                         <div className="p-5 text-lg font-bold flex flex-row items-center justify-center">
-                            <Twitter /> Instagram
+                            <Twitter /> &nbsp;&nbsp;Instagram
                         </div>
                     </Link>
                     <Link href={`https://wa.link/duinyh`} target="_blank">
                         <div className="p-5 text-lg font-bold flex flex-row items-center justify-center">
-                            <MessageSquare/> Whatsapp
+                            <MessageSquare/> &nbsp;&nbsp;Whatsapp
+                        </div>
+                    </Link>
+                    <Link href={`tel:+8801728178450`} target="_blank">
+                        <div className="p-5 text-lg font-bold flex flex-row items-center justify-center">
+                            <Phone/> &nbsp;&nbsp;Call Us
                         </div>
                     </Link>
                 </div>
@@ -37,9 +42,14 @@ const Footer = () => {
                             Terms of Service
                         </div>
                     </Link>
-                    <Link href={`#`}>
+                    <Link href={`/privacy`}>
                         <div className="p-5 text-lg font-bold">
                             Privacy Policy
+                        </div>
+                    </Link>
+                    <Link href={`/posts`}>
+                        <div className="p-5 text-lg font-bold">
+                            Blog
                         </div>
                     </Link>
                     <div className="p-5 text-lg">
