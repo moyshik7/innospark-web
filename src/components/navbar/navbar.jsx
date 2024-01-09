@@ -122,6 +122,11 @@ const Navbar = () => {
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
+                                <NavigationMenuLink href="/posts" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
+                                    Blog
+                                </NavigationMenuLink>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
                                 <Switch onCheckedChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
                             </NavigationMenuItem>
                         </NavigationMenuList>
@@ -162,6 +167,9 @@ const Navbar = () => {
                                         </li>
                                         <li>
                                             <Link href="#">Contact Us</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/posts">Blog</Link>
                                         </li>
                                         <li>
                                             <Switch onCheckedChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
