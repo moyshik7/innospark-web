@@ -1,30 +1,29 @@
 import { DigitalMarketingService } from '@/components/service/digitalMarketing';
 
 export const metadata = {
-    title: 'Web Development - InnoSpark',
-    description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
+    title: 'Digital Marketing - InnoSpark',
+    description: 'Grow your business and reach to your potential customers with our Digital Marketing services',
 
     metadataBase: new URL('https://innosparkbd.com'),
   
     keywords: [
-        'Web development in Bangladesh', 
-        'Web Dev in bd', 
-        'Website building', 
+        'Digital Marketing in Bangladesh', 
+        'Digital Marketing in bd', 
+        'Digital Marketing', 
         'Tech Company in Bangladesh', 
         'Enterprise website in bangladesh', 
         'E-Commerce Website in bd',
-        'Education / Coaching Site in Bangladesh',
-        'Personal website in bangladesh',
-        'Create website in Bangladesh',
-        'Portfolio website in bangladesh'
+        'Facebook Ads in bangladesh',
+        'Earn Money Facebook in Bangladesh',
+        'Earm Money in bangladesh'
     ],
 
     openGraph: {
-        title: 'Web Development - InnoSpark',
-        description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
+        title: 'Digital Marketing - InnoSpark',
+        description: 'Grow your business and reach to your potential customers with our Digital Marketing services',
         url: 'https://innosparkbd.com',
         siteName: 'InnoSpark',
-        images: 'https://innosparkbd.com/images/bg/web-dev.jpg',
+        images: 'https://innosparkbd.com/images/bg/digital-marketing.jpg',
         locale: 'en_US',
         type: 'website',
     },
@@ -34,10 +33,10 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Web Development - InnoSpark',
-        description: 'Get Your Awesome, High-Converting, and SEO Optimized Website up and running within weeks',
+        title: 'Digital Marketing - InnoSpark',
+        description: 'Grow your business and reach to your potential customers with our Digital Marketing services',
         creator: '@akiorochi',
-        images: ['https://innosparkbd.com/images/bg/web-dev.jpg'],
+        images: ['https://innosparkbd.com/images/bg/digital-marketing.jpg'],
     },
 }
 

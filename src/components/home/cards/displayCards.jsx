@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { GenerateDisplayCardLeft, GenerateDisplayCardRight } from './list/displayCard1';
+import { GenerateDisplayCard } from './list/displayCard1';
 import { GenerateStatsCard } from './list/statsCard';
 import { WhyUsCard } from '@/components/service/util/whyUs';
 
@@ -12,39 +12,45 @@ const DisplayCards = () => {
         <WhyUsCard/>
 
 
-
-        <GenerateDisplayCardLeft 
+        <div className="flex flex-row flex-wrap items-stretch">
+        <GenerateDisplayCard 
             title="Digital Marketing" 
             description={`Build a magnetic marketing structure that genuinely forces your brand to rapidly grow and produce profit together without pushing, crying, or begging in your marketplace.`} 
             image="/images/banners/digital-marketing.jpg"
+            href="/service/digital-marketing"
         />
 
-        <GenerateDisplayCardRight 
+        <GenerateDisplayCard
             title="Graphics Design" 
             description={`Elevate your brand with our expertly crafted visual solutions. From sleek logos to impactful marketing materials, our designs seamlessly blend creativity and functionality. Experience the epitome of design excellence for a lasting brand impression`} 
             image="/images/banners/graphics.webp"
+            href="/service/motion-graphics"
         />
 
 
-        <GenerateDisplayCardLeft 
+        <GenerateDisplayCard
             title="Web Development" 
             description={`A website is essential for any business. It helps you reach a wider audience, establish your brand, and provide important information about your business. It can also help to increase sales and revenue`} 
             image="/images/banners/web-dev.jpg"
+            href="/service/web-dev"
         />
         
 
-        <GenerateDisplayCardRight
+        <GenerateDisplayCard
             title="Search Engine Optimization" 
             description={`Ranking in search engines specially in google search is important for businesses. We offer search engine optimization services that cover latest changes in the domain.`} 
             image="/images/banners/seo.webp"
+            href="/service/web-dev"
         />
 
 
-        <GenerateDisplayCardLeft
+        <GenerateDisplayCard
             title="App Development" 
             description={`Mobile application development is the method of making software applications that run on a mobile device`} 
             image="/images/banners/app.webp"
+            href="#"
         />
+        </div>
 
 
 
