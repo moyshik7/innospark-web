@@ -3,31 +3,29 @@ import fs from 'fs';
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter';
 import getPostMetadata from '@/components/getPostMetadata';
-import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
-import {funky as CodeStyle} from 'react-syntax-highlighter/dist/esm/styles/prism';
-import "@/styles/blogpost.css"
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { funky as CodeStyle } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import '@/styles/blogpost.css';
 
-
-const CodeBlock = ({className, children}) => {
+const CodeBlock = ({ className, children }) => {
     let lang = 'text'; // default monospaced text
     if (className && className.startsWith('lang-')) {
-      lang = className.replace('lang-', '');
+        lang = className.replace('lang-', '');
     }
     return (
-      <SyntaxHighlighter language={lang} className="rounded-xl mt-14 mb-14" style={CodeStyle}>
-        {children}
-      </SyntaxHighlighter>
+        <SyntaxHighlighter language={lang} className="rounded-xl mt-14 mb-14" style={CodeStyle}>
+            {children}
+        </SyntaxHighlighter>
     );
-  }
-  
-  // markdown-to-jsx uses <pre><code/></pre> for code blocks.
-const PreBlock = ({children, ...rest}) => {
-    if ('type' in children && children ['type'] === 'code') {
+};
+
+// markdown-to-jsx uses <pre><code/></pre> for code blocks.
+const PreBlock = ({ children, ...rest }) => {
+    if ('type' in children && children['type'] === 'code') {
         return CodeBlock(children['props']);
     }
     return <pre {...rest}>{children}</pre>;
 };
-
 
 const getPostContent = (slug) => {
     const folder = 'posts/';
@@ -44,6 +42,42 @@ export const generateStaticParams = async () => {
     }));
 };
 
+export async function generateMetadata({ params }) {
+    const slug = params.slug;
+
+    // fetch data
+    const post = getPostContent(slug);
+
+    return {
+        title: post.data.title,
+        description: post.data.subtitle,
+
+        metadataBase: new URL('https://innosparkbd.com'),
+
+        keywords: post.data.keywords || ["Innospark"],
+        openGraph: {
+            title: post.data.title,
+            description: post.data.subtitle,
+            url: 'https://innosparkbd.com',
+            siteName: 'InnoSpark',
+            images: 'https://innosparkbd.com//images/banners/2.png',
+            locale: 'en_US',
+            type: 'website',
+        },
+        robots: {
+            index: true,
+            follow: true,
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: post.data.title,
+            description: post.data.subtitle,
+            creator: '@akiorochi',
+            images: ['https://innosparkbd.com//images/banners/2.png'],
+        },
+    };
+}
+
 const PostPage = (props) => {
     const slug = props.params.slug;
     const post = getPostContent(slug);
@@ -52,21 +86,21 @@ const PostPage = (props) => {
             <div className="w-full pr-5 pl-5 md:pr-10 md:pl-10 xl:max-w-6xl">
                 <div className="mb-20 pb-5 border-b text-left">
                     <h1 className="text-3xl">{post.data.title}</h1>
-                    <img
-                        src={post.data.image}
-                        alt="ass"
-                        className="w-full mt-20"
-                    />
-                    <p className="text-left text-sm">{post.data.date}</p>
+                    <img src={post.data.image} alt="ass" className="w-full mt-20" />
+                    <h4 className="text-left text-sm">{post.data.date}</h4>
                 </div>
 
                 <div className="prose font-light text-left">
-                    <Markdown options={{
-						wrapper: 'article',
-                        overrides: {
-                            pre: PreBlock,
-                        },
-					}}>{post.content}</Markdown>
+                    <Markdown
+                        options={{
+                            wrapper: 'article',
+                            overrides: {
+                                pre: PreBlock,
+                            },
+                        }}
+                    >
+                        {post.content}
+                    </Markdown>
                 </div>
             </div>
         </div>

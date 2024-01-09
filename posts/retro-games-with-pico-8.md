@@ -3,6 +3,7 @@ title: "Create retro games with PICO-8"
 subtitle: "8-bit games are a great way to learn and expand your portfolio."
 date: "2020-12-19"
 image: "https://innosparkbd.com//images/banners/2.png"
+keywords: ["Coding Tutorial"]
 ---
 
 After watching [High Score](https://www.youtube.com/watch?v=B4jopG1wX88) on Netflix, I was suddenly inspired to develop a retro-style game. I think it was a combination of the aesthetics and nostalgia that motivated me.

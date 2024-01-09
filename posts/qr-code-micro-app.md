@@ -1,8 +1,9 @@
 ---
-title: "Building a QR code micro-app"
+title: "Building a QR code Generator App"
 subtitle: "Build a serverless 'hello-world' QR code app with Python and AWS."
 date: "2021-08-14"
 image: "https://innosparkbd.com//images/banners/2.png"
+keywords: ["QR code generator", "How qr code works", "Online qr code generator"]
 ---
 
 Ever since the pandemic started, I've noticed QR codes creeping into my daily life. Venue check-ins, digital menus at restaurants, and online payments.
