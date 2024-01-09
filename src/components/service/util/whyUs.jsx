@@ -15,7 +15,7 @@ const robotoBold = Roboto({
 
 
 export const WhyUsCard = () => {
-    return(<div className="flex justify-around items-stretch flex-wrap bg-teal-300 dark:bg-teal-600">
+    return(<div className="flex justify-around items-stretch flex-wrap bg-violet-300 dark:bg-violet-600">
         <div className="w-full lg:w-1/3 mr-5 ml-5 pt-10 pb-10">
             <div className="mb-14">
                 <h3 className={`${roboto.className} text-3xl`}>

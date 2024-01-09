@@ -6,9 +6,9 @@ import { WhyUsCard } from '@/components/service/util/whyUs';
 
 const DisplayCards = () => {
     return (<>
-        <div className="w-full mt-20" />
+        <div className="w-full" />
 
-
+        
         <WhyUsCard/>
 
 
