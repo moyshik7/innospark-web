@@ -50,7 +50,16 @@ const DisplayCards = () => {
             image="/images/banners/app.webp"
             href="#"
         />
+
+
+        <GenerateDisplayCard
+            title="UI / UX Design" 
+            description={`UI (User Interface) and UX (User Experience) is the key to making your mobile app / website stand out from the others and making n expression on your users`} 
+            image="/images/banners/ui-design.webp"
+            href="#"
+        />
         </div>
+        
 
 
 
