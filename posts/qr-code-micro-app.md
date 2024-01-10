@@ -2,7 +2,7 @@
 title: "Building a QR code Generator App"
 subtitle: "Build a serverless 'hello-world' QR code app with Python and AWS."
 date: "2021-08-14"
-image: "https://innosparkbd.com//images/banners/2.png"
+image: "https://innosparkbd.com/images/blog/qr.jpg"
 keywords: ["QR code generator", "How qr code works", "Online qr code generator"]
 ---
 

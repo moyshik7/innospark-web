@@ -2,7 +2,7 @@
 title: "Wolfhunter: A PICO-8 RPG"
 subtitle: "Implementing Pokemon-like combat mechanics in PICO-8."
 date: "2020-12-22"
-image: "https://innosparkbd.com//images/banners/2.png"
+image: "https://innosparkbd.com/images/blog/wolfhunter.jpg"
 keywords: ["Game development", "How to create a game", "How to make a a game", "Lua game development", "Wolfhunter game", "RPG game github"]
 ---
 
