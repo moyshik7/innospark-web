@@ -2,7 +2,7 @@ import { Service } from '@/components/service/service';
 import DisplayCards from '@/components/home/cards/displayCards';
 
 export const metadata = {
-    title: 'InnoSpark',
+    title: 'Our Service - InnoSpark',
     description: 'Leading digital marketing service in Bangladesh',
 
     metadataBase: new URL('https://innosparkbd.com'),
@@ -40,6 +40,7 @@ export const viewport = {
 
 export default function Home() {
     return (<>
+        <div className="mt-20"></div>
         <DisplayCards/>
         <Service/>
     </>)
