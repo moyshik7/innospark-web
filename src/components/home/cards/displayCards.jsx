@@ -58,6 +58,14 @@ const DisplayCards = () => {
             image="/images/banners/ui-design.webp"
             href="#"
         />
+
+
+        <GenerateDisplayCard
+            title="Website Optimization" 
+            description={`Make your website blazing fast and increase user experience with our website optimization plan. Decrease loading time, Decrease Cumulative Layer Shift and make your website more appealing`} 
+            image="/images/banners/web-dev.jpg"
+            href="#"
+        />
         </div>
         
 
