@@ -2,8 +2,8 @@
 title: "Using AI to generate poetry"
 subtitle: "I used GPT-3 to generate poetry and other creative content."
 date: "2021-08-27"
-image: "https://innosparkbd.com//images/banners/2.png"
-keywords: ["CHATGPT", "openai chatgpt", "Artificial Intelligence tutorial", "ChatGPT prompts", "How to use ChatGPT to generate"]
+image: "https://innosparkbd.com/images/blog/gpt.png"
+keywords: ["CHATGPT", "open ai chatgpt", "Artificial Intelligence tutorial", "ChatGPT prompts", "How to use ChatGPT to generate"]
 ---
 
 I was recently granted access to the [OpenAI GPT-3 Beta](https://beta.openai.com/), a very powerful language model that can be used to do all sorts of magic like chat bot generation, article summary, and a [lot more cool stuff](https://beta.openai.com/examples).
