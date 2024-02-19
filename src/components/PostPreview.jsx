@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 const PostPreview = (props) => {
     return (
         <Link href={`/posts/${props.slug}`} key={props.slug}>
-            <Card className="flex flex-col justify-start h-full">
+            <Card className="flex flex-col justify-start h-full shadow-lg">
                 <Inset clip="padding-box" side="top" pb="current">
                     <img
                         src={props.image}
