@@ -14,22 +14,24 @@ const Footer = () => {
         <>
             <div className="block p-5 md:p-14 md:flex flex-row justify-center items-center flex-wrap">
                 <div className="w-full md:w-1/2 rounded-xl bg-card text-card-foreground text-center" >
-                    <Link href={`#`} target="_blank">
+                    <Link href={`https://www.facebook.com/innosparkbd?mibextid=ZbWKwL`} target="_blank">
                         <div className="p-5 text-lg font-bold flex flex-row items-center justify-center">
                             <Facebook /> &nbsp;&nbsp;Facebook
                         </div>
                     </Link>
+                    {/*
                     <Link href={`#`} target="_blank">
                         <div className="p-5 text-lg font-bold flex flex-row items-center justify-center">
                             <Twitter /> &nbsp;&nbsp;Instagram
                         </div>
                     </Link>
-                    <Link href={`https://wa.link/duinyh`} target="_blank">
+                    */}
+                    <Link href={`https://wa.me/8801615527254`} target="_blank">
                         <div className="p-5 text-lg font-bold flex flex-row items-center justify-center">
                             <MessageSquare/> &nbsp;&nbsp;Whatsapp
                         </div>
                     </Link>
-                    <Link href={`tel:+8801728178450`} target="_blank">
+                    <Link href={`tel:+8801615527254`} target="_blank">
                         <div className="p-5 text-lg font-bold flex flex-row items-center justify-center">
                             <Phone/> &nbsp;&nbsp;Call Us
                         </div>
