@@ -43,7 +43,7 @@ const Ass = ({img}) => {
                 height={256} 
                 src={img} 
                 alt={`logo-${img}`} 
-                className="logo h-32 w-32 mr-40" 
+                className="logo h-32 w-32 mr-40 rounded-md" 
                 loading="eager"
             />
         </div>
@@ -76,7 +76,7 @@ const LogosList = () => {
 
     return (
         <div className="logo-container overflow-hidden w-auto mb-0 bg-white">
-            <div className="hidden xl:block bg-white">
+            <div className="hidden xl:block bg-white pt-5 pb-5">
             <Slider {...settings}>
                 {logos.map((logo, index) => (
                     <Ass img={logo} key={index} />

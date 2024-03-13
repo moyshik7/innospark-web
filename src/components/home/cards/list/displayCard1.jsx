@@ -64,8 +64,8 @@ export const GenerateDisplayCard = ({ image, title, description, href }) => {
                         <Image className="w-full object-cover" src={image} alt={title} width={1024} height={720} />
                     </div>
                     <div className="p-8 flex flex-col items-center justify-center w-full space-a text-center">
-                        <div className="tracking-wide text-2xl text-indigo-500 font-semibold">{title}</div>
-                        <p className="mt-2 text-lg text-gray-500">{description}</p>
+                        <div className="tracking-wide text-xl text-indigo-500 font-semibold">{title}</div>
+                        <p className="mt-2 text-sm text-gray-500">{description}</p>
                     </div>
                 </div>
             </div>

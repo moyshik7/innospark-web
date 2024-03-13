@@ -57,12 +57,12 @@ const Navbar = () => {
                     <NavigationMenu>
                         <NavigationMenuList>
                             <NavigationMenuItem>
-                                <NavigationMenuLink href="/" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
+                                <NavigationMenuLink href="/" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md bg-transparent hover:bg-transparent`}>
                                     Home
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger>
+                                <NavigationMenuTrigger className="bg-transparent hover:bg-transparent">
                                     <Link href={'/clients'}>Our Clients</Link>
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
@@ -76,13 +76,13 @@ const Navbar = () => {
                                 </NavigationMenuContent>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuTrigger className={`hover:shadow-md rounded-md`}>
+                                <NavigationMenuTrigger className={`hover:shadow-md rounded-md bg-transparent hover:bg-transparent`}>
                                     <Link href={"/service"}>
                                         Our Service
                                     </Link>
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
-                                    <div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr] rounded-lg">
+                                    <div className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr] rounded-lg bg-transparent hover:bg-transparent">
                                         <div className="row-span-3">
                                             <NavigationMenuLink href="/service/motion-graphics/" asChild>
                                                 <div className="h-full w-full relative bg-[url('/banner/motion-graphics.gif')] bg-cover rounded-lg">
@@ -112,17 +112,17 @@ const Navbar = () => {
                                 </NavigationMenuContent>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuLink href="/projects" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
+                                <NavigationMenuLink href="/projects" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md bg-transparent hover:bg-transparent`}>
                                     Projects
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuLink href="#" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
+                                <NavigationMenuLink href="#" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md bg-transparent hover:bg-transparent`}>
                                     Contact Us
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <NavigationMenuLink href="/posts" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md`}>
+                                <NavigationMenuLink href="/posts" className={`${navigationMenuTriggerStyle()} hover:shadow-md rounded-md bg-transparent hover:bg-transparent`}>
                                     Blog
                                 </NavigationMenuLink>
                             </NavigationMenuItem>
