@@ -48,7 +48,5 @@ export default function Home() {
   return (<>
     <Header/>
     <DisplayCards/>
-    <ServiceSection/>
-    <ClientsSection/>
   </>)
 }

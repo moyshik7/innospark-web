@@ -101,7 +101,7 @@ export const WhyUsCard = () => {
         </div>
         <div className="w-full lg:w-1/3 mr-5 ml-5 flex items-center justify-center">
             <Image
-                src={"/images/bg/pam.jpg"}
+                src={"/images/bg/pam.png"}
                 className="w-full"
                 alt="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5678997"
                 width={1280}
